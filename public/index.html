@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pet Vision Analyzer</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="workspace" aria-label="Pet photo analysis workspace">
+        <div class="upload-pane">
+          <div>
+            <p class="eyebrow">Llama 3.2 Vision</p>
+            <h1>Pet details from dog and cat photos</h1>
+          </div>
+
+          <label class="drop-zone" for="photo">
+            <input id="photo" name="photo" type="file" accept="image/png,image/jpeg,image/webp">
+            <span class="drop-title">Choose a pet photo</span>
+            <span class="drop-subtitle">PNG, JPG, JPEG, or WEBP up to 10 MB</span>
+          </label>
+
+          <div class="preview-frame" aria-live="polite">
+            <img id="preview" alt="">
+            <span id="previewEmpty">No photo selected</span>
+          </div>
+
+          <button id="analyze" type="button" disabled>Analyze photo</button>
+          <p id="status" class="status" role="status"></p>
+        </div>
+
+        <div class="results-pane">
+          <div class="results-heading">
+            <p class="eyebrow">Detected details</p>
+            <span id="modelName"></span>
+          </div>
+          <dl id="results" class="results-list">
+            <div>
+              <dt>Species</dt>
+              <dd>Waiting for upload</dd>
+            </div>
+            <div>
+              <dt>Breed</dt>
+              <dd>Unknown</dd>
+            </div>
+            <div>
+              <dt>Coat colours</dt>
+              <dd>Unknown</dd>
+            </div>
+            <div>
+              <dt>Visible traits</dt>
+              <dd>Unknown</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+    </main>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>
