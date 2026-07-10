@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" aria-labelledby="title">
+  <title id="title">PawSethu</title>
+  <rect width="720" height="280" fill="#1f66d1"/>
+  <g transform="translate(228 38)">
+    <path fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="M38 116c22-20 27-74 101-76 52-1 97 32 105 77 5 25-22 56-57 76l16 43-77-20c-46 10-91-7-114-44"/>
+    <path fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="M169 45c40 25 57 64 51 102-6 33-34 50-58 38"/>
+    <path fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="M43 113c-25 9-43 24-37 40 3 8 15 10 25 8"/>
+    <circle cx="74" cy="101" r="24" fill="#fff"/>
+    <circle cx="134" cy="101" r="24" fill="#fff"/>
+    <path fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" d="M95 101h18m45 0h49"/>
+    <path fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" d="M116 161c12-8 24-5 29 8"/>
+    <path fill="none" stroke="#ff70c8" stroke-width="9" stroke-linecap="round" d="M11 58l-39-25m62 6l-9-46m-12 86l-50-9"/>
+    <path fill="none" stroke="#ff70c8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="M253 61l13 18 18-13-13 18 13 18-18-13-18 13 13-18zM227 103l8 12 12-8-8 12 8 12-12-8-12 8 8-12z"/>
+  </g>
+  <g transform="translate(102 210)">
+    <text x="0" y="0" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="78" font-weight="400">P</text>
+    <g transform="translate(72 -36)" fill="#ff70c8">
+      <ellipse cx="30" cy="31" rx="14" ry="20" transform="rotate(18 30 31)"/>
+      <ellipse cx="57" cy="33" rx="13" ry="19" transform="rotate(-18 57 33)"/>
+      <ellipse cx="12" cy="51" rx="11" ry="16" transform="rotate(-28 12 51)"/>
+      <ellipse cx="75" cy="55" rx="11" ry="16" transform="rotate(28 75 55)"/>
+      <path d="M27 63c9-20 32-20 42 0 8 16-5 28-20 21-4-2-8-2-12 0-15 7-24-6-10-21z"/>
+    </g>
+    <text x="164" y="0" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="78" font-weight="400">wSethu.</text>
+  </g>
+</svg>
